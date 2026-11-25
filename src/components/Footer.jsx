@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer">© {new Date().getFullYear()} CarePoint Healthcare · Your health, our priority.</footer>}

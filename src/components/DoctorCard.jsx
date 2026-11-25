@@ -1,0 +1,1 @@
+export default function DoctorCard({doctor,onBook}){return <article className="doctor-card"><div className="doctor-avatar">{doctor.emoji||"👨‍⚕️"}</div><div><h3>{doctor.name}</h3><p className="specialty">{doctor.specialty}</p><p>{doctor.experience} experience</p><strong>Consultation ₹{doctor.fee}</strong></div><button onClick={()=>onBook(doctor)}>Book</button></article>}

@@ -1,0 +1,1 @@
+export default function ServiceCard({service,onBook}){return <article className="service-card"><div className="service-icon">{service.icon}</div><h3>{service.name}</h3><p>{service.description}</p><div className="card-bottom"><strong>₹{service.price}</strong><button onClick={()=>onBook(service)}>Book appointment</button></div></article>}
